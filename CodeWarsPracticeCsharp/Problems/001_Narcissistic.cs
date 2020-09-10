@@ -20,9 +20,9 @@ namespace CodeWarsPracticeCsharp.Problems
             for (int i = 0; i < valueInArr.GetLength(0); i++)
             {
                 result += Math.Pow(valueInArr[i], valueInArr.GetLength(0));
-                //Console.WriteLine("{0}:{1}", i, valueInArr[i]);
+                Console.WriteLine("{0}:{1}", i, valueInArr[i]);
             }
-            //Console.WriteLine("res of sum^pow : {0}", result);
+            Console.WriteLine("res of [i]^(len) + ... [N]^(len) : {0}", result);
             if (result == value)
                 return true;
             else
@@ -37,7 +37,7 @@ namespace CodeWarsPracticeCsharp.Problems
 
         //------------------------------ADDITIONAL------------------------------
         //write digits of number to an array (Integer to Integer Array)
-        public void IntegertoIntegerArray()
+        public static void IntegertoIntegerArray()
         {
             int yourInt = 1234567890;
             string yourstring = "1234567890";
