@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CodeWarsPracticeCsharp.Problems
 {
     class _001_Narcissistic
     {
+
         //bad is my code
         public static bool Narcissistic(int value)
         {
@@ -31,6 +33,28 @@ namespace CodeWarsPracticeCsharp.Problems
         {
             var str = value.ToString();
             return str.Sum(c => Math.Pow(Convert.ToInt16(c.ToString()), str.Length)) == value;
+        }
+
+        //------------------------------ADDITIONAL------------------------------
+        //write digits of number to an array (Integer to Integer Array)
+        public void IntegertoIntegerArray()
+        {
+            int yourInt = 1234567890;
+            string yourstring = "1234567890";
+            int count = 0;
+            int[] result = yourInt.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
+            foreach (int r in result)
+            {
+                count++;
+                Console.WriteLine("{0} : {1}", count, r);
+            }
+            count = 0;
+            foreach (char c in yourstring)
+            {
+                count++;
+                Console.WriteLine("{0}: {1}", count, Convert.ToInt32(c));
+            }
+
         }
     }
 }
