@@ -18,7 +18,7 @@ namespace Problems
 {
     class _002_UniqueInOrder
     {
-        //bad
+        //// my code
         public static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
         {
             List<T> newArr = new List<T>();

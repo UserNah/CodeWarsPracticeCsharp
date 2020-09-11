@@ -8,7 +8,7 @@ namespace CodeWarsPracticeCsharp.Problems
     class _001_Narcissistic
     {
 
-        //bad is my code
+        // my code
         public static bool Narcissistic(int value)
         {
             int[] valueInArr = new int[value.ToString().Length];
