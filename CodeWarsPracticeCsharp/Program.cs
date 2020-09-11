@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Problems;
-using CodeWarsPracticeCsharp.Problems._6_kyu;
+using CodeWarsPracticeCsharp.Problems;
 
 namespace CodeWarsPracticeCsharp
 {
@@ -9,8 +9,13 @@ namespace CodeWarsPracticeCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(WhoLikesIt.Likes(new string[0]));
-            Console.WriteLine(WhoLikesIt.Likes(new string[] { "Jacob", "Aiza", "Alex", "Ash" }));
+            //Console.WriteLine("out : " + BlockSequence.solve(1));
+            //Console.WriteLine("out : " + BlockSequence.solve(2));
+            //Console.WriteLine("out : " + BlockSequence.solve(3));
+            //Console.WriteLine("out : " + BlockSequence.solve(100));
+            //Console.WriteLine("out : " + BlockSequence.solve(2100));
+            Console.WriteLine("out : " + BlockSequence.solve(999999999999999993));
+
         }
     }
 }
