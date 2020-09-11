@@ -33,18 +33,12 @@ namespace CodeWarsPracticeCsharp.Problems
             {
                 for(int j = 1; j <=i; j++)
                 {
-                    for(int k = 1; k <= j.ToString().Length; k++)
-                        ++count;
+                    ++count;
                     allArray += j.ToString();
                     if (n == count)
                     {
                         //last = j;
                         break;
-                    }
-                    if(n < count)
-                    {
-                        while (n != count)
-                            count--;
                     }
                 }
                 //Console.WriteLine();
