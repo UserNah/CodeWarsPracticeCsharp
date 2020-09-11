@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Problems;
 
 namespace CodeWarsPracticeCsharp
 {
@@ -8,12 +9,8 @@ namespace CodeWarsPracticeCsharp
 
         static void Main(string[] args)
         {
-            //my code
-            bool testA = Problems._001_Narcissistic.Narcissistic(153);
-            Console.WriteLine(testA);
-             //. ..
-            bool testB = Problems._001_Narcissistic.NarcissisticExcellent(153);
-            Console.WriteLine(testB);
+            Console.WriteLine(_002_UniqueInOrder.UniqueInOrder("11233444").ToArray());
+            Console.WriteLine(_002_UniqueInOrder.UniqueInOrderExcellent("11233444").ToArray());
         }
     }
 }
