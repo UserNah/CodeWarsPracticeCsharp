@@ -9,8 +9,7 @@ namespace CodeWarsPracticeCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(HolidayVISharkPontoon.Shark(10, 10, 10, 10, true));
-            //Console.WriteLine(HolidayVISharkPontoon.Shark(7, 8, 3, 4, true));
+            Console.WriteLine(CanWeDivideIt.is_divide_by(15, 2, 5));
         }
     }
 }
